@@ -1,5 +1,5 @@
-import { ChangeEvent, FormEvent, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { ChangeEvent, FormEvent } from 'react';
+import { useDispatch } from 'react-redux';
 import { FaSearchLocation } from "react-icons/fa";
 
 import styles from './search.module.css';
