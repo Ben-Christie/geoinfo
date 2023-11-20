@@ -1,0 +1,8 @@
+.landingContainer {
+  border: 1px solid blue;
+  height: calc(100vh - var(--navbar-height));
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  overflow: auto;
+}

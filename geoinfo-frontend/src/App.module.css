@@ -1,0 +1,10 @@
+:root {
+  --navbar-height: 15vh;
+}
+
+.backgroundGradient {
+  height: 100vh;
+  background-color: #bdecc1;
+  background-image: linear-gradient(to bottom, #bdecc1, #FFFFFF);
+  opacity: 70%;
+}
