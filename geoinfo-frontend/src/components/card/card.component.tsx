@@ -2,13 +2,15 @@ import styles from './card.module.css';
 
 interface Props {
   title: string;
+  flag: string;
+  description: string;
 }
 
-const Card = ({title}: Props) => {
+const Card = ({title, flag, description}: Props) => {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardFlag}>
-        <img src="https://picsum.photos/id/237/300/300" alt="placeholder" />
+        <img src={flag} alt={description} />
       </div>
       <div className={styles.cardName}>
         {title}
